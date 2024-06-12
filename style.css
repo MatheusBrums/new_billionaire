@@ -16,6 +16,9 @@ header{
     text-shadow: 2px 2px 4px black;
     
 }
+h1{
+    text-align: center;
+}
 #div01{
     margin: 1rem;
     display: flex;
@@ -115,4 +118,17 @@ footer{
     font-weight: bolder;
     color: white;
     margin-bottom: 4rem;
+}
+@media screen and (max-width: 952px){  
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+    #luck_or_reverse_mensage_box{
+        width: 90%;
+        height: 15rem;
+        padding: 0.5rem;
+    }
 }
