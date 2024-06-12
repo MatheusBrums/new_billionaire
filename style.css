@@ -103,6 +103,7 @@ input{
     border: none;
 }
 textarea{
+    height: 50px;
     width: 90%;
     padding: 0.3rem;
     margin: 0.2rem;
